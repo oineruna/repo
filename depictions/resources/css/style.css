@@ -127,19 +127,6 @@ dialog>toolbar>a.forward-button {
 	float:right
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .alert {
 padding: 5px;
 color: #c09853;
@@ -538,19 +525,9 @@ panel>block>ul,fieldset>div>ul {
 	margin-left:13px
 }
 
-
-
-
-
-
 panel>block>p,fieldset>div>p {
 	text-align:center
 }
-
-
-
-
-
 
 fieldset>div>p:first-child,fieldset>div>ul:first-child {
 	margin-top:0
