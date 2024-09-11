@@ -1,10 +1,31 @@
+Package: ai.akemi.appsyncunified
+Version: 112.0
+Architecture: iphoneos-arm64
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Installed-Size: 676
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 16.5.1)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncunified, vaginalfisting.appsynctool, science.xnu.substitute, akemi.appsink, akemi.appsyncunifed, akemi.appsyncunifed2, akemi.appsyncunifedpatched, appsyncpatched, appsyncrootless, weaponized.autism.technology.appsyncunified
+Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified
+Provides: appsync, net.angelxwind.appsyncunified
+Filename: ./debs/ai.akemi.appsyncunified_112.0.deb
+Size: 49504
+MD5sum: 8c021dd4b7a708a879b3a3b60dab063b
+SHA1: 0bb7e3fe91b8034d229d268e33133eb727c247b7
+SHA256: 400913a5de0f78345e14ed3e05fedaacbf12bb280a443a2ca880e04396460e73
+Section: Tweaks
+Homepage: https://cydia.akemi.ai/
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
+Name: AppSync Unified
+
 Package: co.dynastic.ios.tweak.compactor
 Version: 1.1.1
 Architecture: iphoneos-arm64
 Maintainer: Jamie Bishop <jamie@dynastic.co>
 Installed-Size: 168
 Depends: mobilesubstrate
-Filename: ./temp/co.dynastic.ios.tweak.compactor_1.1.1.deb
+Filename: ./debs/co.dynastic.ios.tweak.compactor_1.1.1.deb
 Size: 5276
 MD5sum: 63d03e14f3f575904c54677afe6d80fd
 SHA1: b11274ca97b217a04781ef635dd7f75705f8c530
@@ -16,6 +37,93 @@ Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=co.dyna
 Icon: https://p2kdev.github.io/repo/api/packageinfo/co.dynastic.ios.tweak.compactor/icon.png
 Name: Compactor
 Sileodepiction: https://p2kdev.github.io/repo/depictions/native/co.dynastic.ios.tweak.compactor.json
+
+Package: com.0xkuj.cccounters
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: 0xkuj
+Installed-Size: 428
+Depends: mobilesubstrate, org.thebigboss.libcolorpicker, firmware (>= 13.0)
+Filename: ./debs/com.0xkuj.cccounters_1.0.3.deb
+Size: 52624
+MD5sum: 4e8824fc5bde656074c48041d7af5646
+SHA1: d95719bd18187e26b836e6e0b3899acaf6713234
+SHA256: 57bf4d7394a930f65b7147f90e81ba60afff8cc952184ce04fd3c29e07028224
+Section: Tweaks
+Description: Adds some counters to your Control Center
+Author: 0xkuj
+Name: CCCounters
+
+Package: com.0xkuj.ccdndtimer
+Version: 1.3
+Architecture: iphoneos-arm64
+Maintainer: 0xkuj
+Installed-Size: 360
+Depends: com.opa334.ccsupport
+Filename: ./debs/com.0xkuj.ccdndtimer_1.3.deb
+Size: 21648
+MD5sum: 94165480bf6a604fbb5dfa74adbe9937
+SHA1: 122f22998a4a04d1c5fdf0ccf72d2b001bac1798
+SHA256: 23eb7b98e6cb3c65d0beacd79c53d10abc03ea1005b95db0295bab85cb6f6a7a
+Section: Tweaks
+Description: DND Toggle with timer included!
+Author: 0xkuj
+Name: CCDNDTimer
+
+Package: com.0xkuj.iparanger
+Version: 1.9
+Architecture: iphoneos-arm64
+Maintainer: 0xkuj <0xkujz@gmail.com>
+Depends: gawk, unzip, plutil
+Filename: ./debs/com.0xkuj.iparanger_1.9.deb
+Size: 1135980
+MD5sum: 596c77b7233308d5c13a7c6858a171a3
+SHA1: 8fd15b55d89ab9c950441ca12cded7cc86aed403
+SHA256: e04e30ccd92d5b5e7abb026df8a7a71c6cbbe42b7a0c8cc460bdfec2771fc331
+Section: Addons
+Description: GUI Based Application for ipatool
+Author: 0xkuj <0xkujz@gmail.com>
+Name: IPA Ranger
+
+Package: com.anthopak.pancake-rootless
+Version: 2.2
+Architecture: iphoneos-arm64
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Depends: firmware (>=11.0), mobilesubstrate, ws.hbang.common (>= 1.14), com.opa334.altlist, firmware (>= 11.0)
+Filename: ./debs/com.anthopak.pancake-rootless_2.2.deb
+Size: 117704
+MD5sum: 6a105fbcec401cb11d5775027e473d53
+SHA1: c7d23ede8c839f1a23f78471259c03f8f0868012
+SHA256: 47dbd0bc69f36e383563048af7e35fbd5d40183b9d83019de3514c088ebbed9c
+Section: Tweaks
+Homepage: https://repo.anthopak.dev
+Description: Interactive dismiss gesture on the whole screen in all apps and ability to restore previous page
+Author: AnthoPak <anthopakdev@gmail.com>
+Depiction: https://repo.anthopak.dev/depiction/web/com.anthopak.pancake-rootless.php
+Icon: https://repo.anthopak.dev/assets/com.anthopak.pancake-rootless/icon.png
+Moderndepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.pancake-rootless.json
+Name: PanCake (Rootless)
+Sileodepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.pancake-rootless.json
+
+Package: com.anthopak.quickccdismiss-rootless
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Depends: firmware (>=11.0), mobilesubstrate, firmware (>= 11.0)
+Filename: ./debs/com.anthopak.quickccdismiss-rootless_1.0.deb
+Size: 105578
+MD5sum: a05b7f0fcdd25e4a1b2aeba0206ed00a
+SHA1: ed4fe3de0458d6ab52f84b1b04869e582de92dac
+SHA256: ae587dfde0240c6b5ebab422fd9883fb99e1d3dc5b62baca3db5426b62c184e4
+Section: Tweaks
+Homepage: https://repo.anthopak.dev
+Description: Quickly dismiss CC from expanded modules
+Author: AnthoPak <anthopakdev@gmail.com>
+Depiction: https://repo.anthopak.dev/depiction/web/com.anthopak.quickccdismiss-rootless.php
+Icon: https://repo.anthopak.dev/assets/com.anthopak.quickccdismiss-rootless/icon.png
+Moderndepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.quickccdismiss-rootless.json
+Name: QuickCCDismiss (Rootless)
+Sileodepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.quickccdismiss-rootless.json
 
 Package: com.anthopak.quickprefs-rootless
 Version: 1.3.3
@@ -36,4 +144,1288 @@ Icon: https://repo.anthopak.dev/assets/com.anthopak.quickprefs-rootless/icon.png
 Moderndepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.quickprefs-rootless.json
 Name: QuickPrefs (Rootless)
 Sileodepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.quickprefs-rootless.json
+
+Package: com.brend0n.nolowpowermode30secautolock
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: Brend0n <brendonjkding@126.com>
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/com.brend0n.nolowpowermode30secautolock_0.0.1.deb
+Size: 4026
+MD5sum: 763b4eff57add614e8c4d4cecc373d08
+SHA1: 6dbbcf12a34c8c8c5462c718b51691a91e83afde
+SHA256: 6826a993d198b9e7c58904a2665d3c92ecd0e82e4df9c62bb619d1b841f9ab56
+Section: Tweaks
+Description: Natively allow you to adjust Auto-Lock interval in Low Power Mode. 在低电量模式下也可以调整自动锁屏时间！
+Author: Brend0n <brendonjkding@126.com>
+Name: NoLowPowerMode30SecAutoLock
+
+Package: com.brend0n.nopastedfrom
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: Brend0n <brendonjkding@126.com>
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: ./debs/com.brend0n.nopastedfrom_0.0.1.deb
+Size: 3002
+MD5sum: ceee5dbec91db31e6faa02349e58cb96
+SHA1: 29494b592ddea0590beefdd5f7fb4f409aaabd33
+SHA256: d11c182e66c1365d88b245daed0fa12145619e7c3de0c4f32f6018dfd6eeb2d1
+Section: Tweaks
+Description: No "XX pasted from YY"
+Author: Brend0n <brendonjkding@126.com>
+Name: NoPastedFrom
+
+Package: com.cannathea.afc2d-arm64
+Version: 1.2.0
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 342
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: cy+cpu.arm64, mobilesubstrate, firmware (>= 11.0)
+Conflicts: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Replaces: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Provides: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Filename: ./debs/com.cannathea.afc2d-arm64_1.2.0.deb
+Size: 15190
+MD5sum: 62aa51f4f138fc9fa697c4fcb0d208f3
+SHA1: 6c7ec8cda1cfc36ced28edd872b215bd7124ecf6
+SHA256: 4434e281c34d79bcb300bbb34aa381648b34edebb04b872d947c9043fd384f30
+Section: System
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=afc2kpplessDp
+Description: Allow full file-system access over USB for all arm64 devices, especially useful for those on iOS 11 and above. Please install ldid as it is required for use. (except for the XinaA15 jailbreak)
+Tag: purpose::daemon
+Author: saurik, Cannathea <csupport@cannathea.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=afc2kpplessDp
+Dev: cannathea
+Name: Apple File Conduit "2" (iOS 11+, arm64)
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.creaturecoding.shuffle
+Version: 1.6.2
+Architecture: iphoneos-arm64
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Installed-Size: 1484
+Pre-Depends: firmware (>= 8.0), com.ex.libsubstitute | org.coolstar.libhooker | mobilesubstrate
+Depends: com.creaturecoding.libcspreferences
+Conflicts: com.cpdigitaldarkroom.placeholder
+Replaces: com.cpdigitaldarkroom.placeholder
+Filename: ./debs/com.creaturecoding.shuffle_1.6.2.deb
+Size: 253928
+MD5sum: f33bb228db1e0ab18083e59793928d80
+SHA1: 02d21ff03c51fa75df6282501597222526953f04
+SHA256: 281f4bacf22ccdf3afa7059d57231fa5b4794c50803a2b23d11c29d6bb018e5c
+Section: Tweaks
+Homepage: https://creaturecoding.com/
+Description: Organize your settings
+Tag: purpose::extension, compatible_min::ios10
+Author: CreatureSurvive <support@creaturecoding.com>
+Depiction: https://creaturecoding.com/?page=depiction&id=shuffle
+Icon: file:///Library/PreferenceBundles/shuffle.bundle/SettingsIcon@3x.png
+Name: Shuffle
+Sileodepiction: https://creaturecoding.com/sileo/depiction/?package_id=shuffle
+
+Package: com.cydiageek.customlpm
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 612
+Depends: mobilesubstrate, firmware (>= 11.0), preferenceloader
+Filename: ./debs/com.cydiageek.customlpm_1.0.3.deb
+Size: 68084
+MD5sum: 2180a4c3dc9e5238142f6aae2b9a25bd
+SHA1: 5b9618418adf3742ca82b1db3d989705e48a8400
+SHA256: 7b5ba331612236045aa701c3c550bd15e7d86e307f04113d49deb2c37db4ec73
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=customlpmDp
+Description: Customization for the Low Power Mode.
+Tag: purpose::extension
+Author: CydiaGeek <lucaluca86@aol.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=customlpmDp
+Dev: lucaluca86
+Icon: file:///var/jb/Library/PreferenceBundles/CustomLPM.bundle/CustomLPM@2x.png
+Name: CustomLPM
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.cydiageek.skinnysettings
+Version: 1.6.7
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 920
+Depends: mobilesubstrate, firmware (>= 8.0), preferenceloader, org.thebigboss.libcolorpicker
+Filename: ./debs/com.cydiageek.skinnysettings_1.6.7.deb
+Size: 123454
+MD5sum: 50b96a0912666445db3191255b1ad436
+SHA1: 54c1c2015af78b1023ec97c61ffeef8a3fe521ea
+SHA256: 17f5cb7176b6069b188bc76551866bdad9584550425a48e3b4857f403a17665a
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=skinnysettingsDp
+Description: Make your Settings Minimal/Sleek & More!
+Tag: purpose::extension
+Author: CydiaGeek <lucaluca86@aol.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=skinnysettingsDp
+Dev: lucaluca86
+Icon: file:///var/jb/Library/PreferenceBundles/SkinnySettings.bundle/SkinnySettings@2x.png
+Name: SkinnySettings
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.easy-z.bark
+Version: 2.0.6
+Architecture: iphoneos-arm64
+Maintainer: Easy-Z
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: ./debs/com.easy-z.bark_2.0.6.deb
+Size: 7196
+MD5sum: c472f432676929395d6eb809698d8fa7
+SHA1: 97be73f9d9eda32c0d2e4c38687b0cb3f9ea0de3
+SHA256: 211ef33edb9a892b5ba271a7cd2b4f264e0140720bc00fe7ba186f67ca2b8c64
+Section: Tweaks
+Description: Make your keyboard more OLED friendly.
+Author: Easy-Z
+Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=com.easy-z.bark
+Icon: https://p2kdev.github.io/repo/api/packageinfo/com.easy-z.bark/icon.png
+Name: BARK
+Sileodepiction: https://p2kdev.github.io/repo/depictions/native/com.easy-z.bark.json
+
+Package: com.exile90.icleanerpro
+Version: 7.10.0
+Architecture: iphoneos-arm64
+Maintainer: Ivano Bilenchi <support@ib-soft.net>
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Filename: ./debs/com.exile90.icleanerpro_7.10.0.deb
+Size: 1098586
+MD5sum: 6d52edf547d85ea5713e913d6293f3ba
+SHA1: d9fb1af260401829b101a3a3214698919d0dc1f6
+SHA256: eb1137e9ccf0d9c0b985011a42d969b214dccde19977c9398e300da50ae6a083
+Section: Utilities
+Homepage: http://ib-soft.net/icleaner
+Description: The first real iOS system cleanup and management utility
+Author: Ivano Bilenchi <support@ib-soft.net>
+Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
+Icon: file:///Applications/iCleaner.app/Icon.png
+Name: iCleaner Pro
+
+Package: com.fiore.calculatorhistory
+Version: 1.1.3-1
+Architecture: iphoneos-arm64
+Maintainer: Donato Fiore + AnubisTweaks
+Installed-Size: 204
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
+Filename: ./debs/com.fiore.calculatorhistory_1.1.3-1.deb
+Size: 16552
+MD5sum: 1407253fa6493139ebf6bf3c7ff621e9
+SHA1: 4ab3a19333690ea9c550ea61b974dbc33dabd4d1
+SHA256: f84fd040f24efccccd00e93e890ed84297cf2784caa052f61446553572d5b1f9
+Section: Tweaks
+Description: Calculator gains history!
+Author: Donato Fiore
+Name: CalculatorHistory
+
+Package: com.foxfort.portraitxi
+Version: 4.3.3
+Architecture: iphoneos-arm64
+Maintainer: FoxfortMobile
+Installed-Size: 14004
+Depends: mobilesubstrate, preferenceloader, com.foxfort.foxforttools (>= 1.4.8)
+Filename: ./debs/com.foxfort.portraitxi_4.3.3.deb
+Size: 12220034
+MD5sum: 711221e6503e94244a6fdfd786788fd7
+SHA1: 22e53ac5c559228adc7260f1c09e96720a1735d7
+SHA256: 246c261b4096df239b36ee589bd623887cc50cf146b676d115b19ce90124fb3c
+Section: Tweaks
+Description: Single camera portrait mode
+Author: FoxfortMobile
+Icon: file:///Library/PreferenceBundles/portraitxisettings.bundle/icon@3x.png
+Name: PortraitXI
+
+Package: com.hoangdus.speedster
+Version: 2.1.1
+Architecture: iphoneos-arm64
+Maintainer: Hoangdus
+Installed-Size: 380
+Depends: firmware (>=13.0)
+Filename: ./debs/com.hoangdus.speedster_2.1.1.deb
+Size: 40856
+MD5sum: d33c9819ce7f8db2c2e96b4a02f250a9
+SHA1: 8b46b1777cc718dac3c95849699b5a761747db33
+SHA256: 0d3cd3366ccf0297e23099c7e1d7a4248ea0ab80fc05962bafc04fade40573e3
+Section: Tweaks
+Description: Faster iOS animation.
+Author: Hoangdus
+Name: Speedster
+
+Package: com.ichitaso.autobrightness11
+Version: 0.1-6
+Architecture: iphoneos-arm64
+Maintainer: ichitaso
+Installed-Size: 184
+Pre-Depends: firmware (>= 11.0)
+Depends: com.opa334.ccsupport
+Filename: ./debs/com.ichitaso.autobrightness11_0.1-6.deb
+Size: 13138
+MD5sum: 56ae0a5caeb92cbd170a77e7d7b95612
+SHA1: 30f861f5ee4d3ad728e39412ece208e489e59f60
+SHA256: 9bd4df84ee6e3c873695f5d463054395f6ec51ce52a7b94fd93d99f524572b6a
+Section: Addons (ControlCenter)
+Homepage: https://ichitaso.com
+Description: Turn on / off Auto-Brightness from the control center.
+Tag: purpose::extension, compatible_min::ios11.0, compatible_max::ios16.5
+Author: ichitaso
+Depiction: https://cydia.ichitaso.com/depiction/autobrightness11.html
+Dev: ichitaso
+Name: AutoBrightnessToggle (CCSupport)
+
+Package: com.ichitaso.locationservicecc
+Version: 0.1-6
+Architecture: iphoneos-arm64
+Maintainer: ichitaso
+Installed-Size: 248
+Pre-Depends: firmware (>= 11.0)
+Depends: com.opa334.ccsupport (>= 1.2)
+Filename: ./debs/com.ichitaso.locationservicecc_0.1-6.deb
+Size: 34280
+MD5sum: b522f428c5cdab06763cb355e9c9aa16
+SHA1: 0e700d97f8855f081d362ec94b47707518f40f25
+SHA256: 8679802c4b392760f4707108296fa97ec8dc2332e880e0212d86030cfd48e5ec
+Section: Addons (ControlCenter)
+Homepage: https://ichitaso.com
+Description: Turn on / off LocationService from the control center.
+Tag: purpose::extension, compatible_min::ios11.0, compatible_max::ios16.5
+Author: ichitaso
+Depiction: https://cydia.ichitaso.com/depiction/locationservicecc.html
+Dev: ichitaso
+Name: LocationService (CCSupport)
+
+Package: com.ichitaso.powerselector11
+Version: 1.4.0
+Architecture: iphoneos-arm64
+Maintainer: ichitaso <willfeeltips+ps11@gmail.com>
+Installed-Size: 2212
+Pre-Depends: firmware (>= 11.0)
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.ichitaso.powerselector, com.dpkgdan.powertap, com.weesstt.powerdownoptions, com.subdiox.powertap2, com.rustybalboa.powertapxi
+Replaces: com.ichitaso.powerselector11
+Filename: ./debs/com.ichitaso.powerselector11_1.4.0.deb
+Size: 201760
+MD5sum: 8239543ce656dcdfc767153ca91bf4e6
+SHA1: a903b8356ebf69ceb1df8c0b70629c27fba7c1b8
+SHA256: fc84a4e3f985998449beb6bfc84b79b13356efb94a3482aa1cbd50ff5e8b928a
+Section: Utilities
+Homepage: https://cydia.ichitaso.com/depiction/powerselector11.html
+Description: The power supply relation of a device is operated.
+Tag: purpose::extension, compatible_min::ios11.0, compatible_max::ios17.1.2
+Author: ichitaso <willfeeltips+ps11@gmail.com>
+Depiction: https://cydia.ichitaso.com/depiction/powerselector11.html
+Dev: ichitaso
+Icon: https://cydia.ichitaso.com/icons/PowerSelector.png
+Name: PowerSelector
+Sileodepiction: https://cydia.ichitaso.com/depiction/powerselector11.json
+
+Package: com.icraze.uyoucrashfix
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: iCraze
+Installed-Size: 88
+Depends: mobilesubstrate
+Filename: ./debs/com.icraze.uyoucrashfix_1.0.deb
+Size: 2626
+MD5sum: 3e782b4a973a74301a8c09f8713d4d4f
+SHA1: 889fbce093919368971bbca033c670982deec33c
+SHA256: 6f8fddf3848761c24a07778442cc0ede479409cdc80683f8589f9f266ddffd7d
+Section: Tweaks
+Description: Fixes uYou crash bugs on YouTube v18.43.4
+Author: iCraze
+Name: uYouCrashFix
+
+Package: com.kingpuffdaddi.control-center.ccvpn
+Version: 1.0.6
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 187
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.opa334.ccsupport
+Filename: ./debs/com.kingpuffdaddi.control-center.ccvpn_1.0.6.deb
+Size: 15216
+MD5sum: 92b2ebe26ff0023b260c39413cffbe80
+SHA1: 881eaeb8f9c22be798e65478940783ad672b0753
+SHA256: e65eafb89e52fef08e814323e43c1d5c7474955dc401504fd1783ff536fc6955
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccvpnDp
+Description: A Control Center Module to connect/disconnect VPN
+Tag: purpose::extension
+Author: KingPuffdaddi <kingpuffdaddi@icloud.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccvpnDp
+Dev: kingpuffdaddi
+Icon: file:///Library/ControlCenter/Bundles/CCVPN.bundle/Icon@2x.png
+Name: CCVPN
+
+Package: com.lclrc.controltab
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: SquidForce
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.chr1s.newtab
+Filename: ./debs/com.lclrc.controltab_1.0.deb
+Size: 6112
+MD5sum: 99fdb6bf17f0be5fb441b6f76c9e77a5
+SHA1: deafe2721eb678d28bfe0074980a55e369a1ab31
+SHA256: 5fafffcff06e2fd5623738c4312556178318afcb89b13aa9cf4ef78c42bc91a6
+Section: Tweaks
+Description: tweak for Safari
+Author: SquidForce
+Name: ControlTab - 控制Safari标签页
+Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.lclrc.controltab/depiction.json
+
+Package: com.lclrc.squidgesture
+Version: 2.1.6
+Architecture: iphoneos-arm64
+Maintainer: lclrc(SquidForce)
+Installed-Size: 7044
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), com.opa334.altlist
+Filename: ./debs/com.lclrc.squidgesture_2.1.6.deb
+Size: 2007924
+MD5sum: a8c7a0c64cd662a3d8ea241ffbb7ba81
+SHA1: 826761079eaa09e370ad8e6f2d594c1e8083f474
+SHA256: 9e19e02beb9714cd1a470d3754a88beb8ff43cdcbad812bb31ee8d65221a08d6
+Section: Tweaks
+Description: Gestures
+Author: lclrc(SquidForce)
+Icon: file:///var/jb/Library/PreferenceBundles/SquidGesturePrefs.bundle/SquidGesture_icon@3x.png
+Name: SquidGesture
+
+Package: com.miro.perfectcalc
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: MiRO <tweaks_support@miro92.com>
+Installed-Size: 168
+Depends: firmware (>=13.0), mobilesubstrate
+Filename: ./debs/com.miro.perfectcalc_1.0.deb
+Size: 6068
+MD5sum: 8ae113a80d7caa3f7ebfa7d5b199a55a
+SHA1: 41293e30d0a4bf553424262547a35e44227b79c6
+SHA256: 8ff1c09462594d59c656ba33b06996775419ec15fe63cbb3c6c9aec4b6becea1
+Section: Tweaks
+Description: A tweak that keeps the calculations in the Calculator app
+Tag: purpose::extension, compatible_min::ios13, compatible_max::ios14
+Author: MiRO <tweaks_support@miro92.com>
+Depiction: https://miro92.com/repo/depictions/?p=com.miro.perfectcalc
+Name: PerfectCalc (rootless)
+
+Package: com.miro.uyou
+Version: 3.0.4
+Architecture: iphoneos-arm64
+Maintainer: MiRO <tweaks_support@miro92.com>
+Installed-Size: 31212
+Depends: firmware (>=13.0), mobilesubstrate, com.miro.uyouimport
+Conflicts: com.miro.easyyt, com.miro.ytnoshorts, com.ps.noytpremium, com.ps.youarethere, com.miro.uyourootless
+Filename: ./debs/com.miro.uyou_3.0.4.deb
+Size: 10951358
+MD5sum: 0d967fccff1e3818657ea82cf34e90df
+SHA1: 8eaffd5ed9740e8254ee4e3e13380de46096bf21
+SHA256: 36ed3b872fd09405a69dc8bf6435348c0bcac93815981cc7e2fbcc8ca507c8e0
+Section: Tweaks
+Description: Enhance Your YouTube Experience
+Tag: purpose::extension, compatible_min::ios13
+Author: MiRO <tweaks_support@miro92.com>
+Depiction: https://miro92.com/repo/depictions/?p=com.miro.uyou
+Icon: file:////Library/Application Support/uYouBundle.bundle/icon_clipped.png
+Name: uYou
+
+Package: com.miro.uyouimport
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: MiRO <tweaks_support@miro92.com>
+Installed-Size: 444
+Depends: firmware (>=13.0), mobilesubstrate
+Filename: ./debs/com.miro.uyouimport_1.0.deb
+Size: 81376
+MD5sum: 583568c6e3b2215fd5d69da939f112b9
+SHA1: 582f9f84d000bb2b93b846c8e87226e778a5c19e
+SHA256: b7dd9822f4e7cf6a255eab72877d00229c86d648b50892419b96ed61b9b19bea
+Section: Tweaks
+Description: Library for importing songs/videos into the Music app.
+Tag: purpose::extension, compatible_min::ios13
+Author: MiRO <tweaks_support@miro92.com>
+Depiction: https://miro92.com/repo/depictions/?p=com.miro.uyouimport
+Name: uYouImport
+
+Package: com.nahtedetihw.artfull
+Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: Ethan Whited
+Installed-Size: 268
+Filename: ./debs/com.nahtedetihw.artfull_1.2.deb
+Size: 31428
+MD5sum: bdc48d47981b21f04b2f56b7c8cc1e2d
+SHA1: 62e44c6efe4c042d62733445457a351c1847ec4f
+SHA256: 3599f90a292860e960ffd170e0ff73e7273e22de1dc21432483677e3e14812f3
+Section: Tweaks
+Description: Make the Apple Music app look like iOS 17!
+Author: Ethan Whited
+Name: ArtFull
+
+Package: com.noisyflake.velvet2
+Version: 2.1.2-3
+Architecture: iphoneos-arm64
+Maintainer: NoisyFlake <support@noisyflake.com>
+Installed-Size: 629
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: com.initwithframe.velvet
+Filename: ./debs/com.noisyflake.velvet2_2.1.2-3.deb
+Size: 95422
+MD5sum: 73091f5e4411fbd42a9e54aa0f3fc13a
+SHA1: d040c4851660ac3d913c76fa8fe87e0dd3fe82d6
+SHA256: 60c2aace71723542f533721307f6dfc37a07d3c58c7fe449688bc1c6136f75f1
+Section: Tweaks
+Description: A fully customizable notification experience
+Tag: compatible_min::ios15.0
+Author: NoisyFlake <support@noisyflake.com>
+Depiction: https://chariz.com/get/velvet-2
+Icon: https://img.chariz.cloud/icon/velvet-2/icon@3x.png
+Name: Velvet 2
+
+Package: com.opa334.ccsupport
+Version: 1.3.13-2
+Architecture: iphoneos-arm64
+Maintainer: opa334
+Installed-Size: 560
+Depends: mobilesubstrate, firmware (>=11.0)
+Conflicts: com.ioscreatix.silo
+Replaces: com.ioscreatix.silo
+Provides: com.ioscreatix.silo
+Filename: ./debs/com.opa334.ccsupport_1.3.13-2.deb
+Size: 58952
+MD5sum: f108fb86bbbe13ee3a1e381eea1d0f97
+SHA1: 176a01aeb900f5c0d31bceb6751441059e0cea24
+SHA256: 5d59f00755bf40d21bfa86e75e121b561a23ab1cad9632fbeede8563ef65bfde
+Section: Tweaks
+Description: Support tweak for CC modules!
+Author: opa334
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
+Name: CCSupport
+
+Package: com.opa334.cranelite
+Version: 1.3.15-2
+Architecture: iphoneos-arm64
+Maintainer: opa334
+Installed-Size: 2164
+Depends: firmware (>=11.0), mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.5), com.opa334.libsandy, com.opa334.libundirect (>=1.1.4) | firmware (<<14.0)
+Conflicts: com.opa334.crane, com.opa334.crane13lite, com.opa334.crane13, com.rpgfarm.slices3, com.subdiox.slices2, com.expetelek.slices
+Filename: ./debs/com.opa334.cranelite_1.3.15-2.deb
+Size: 331494
+MD5sum: 1d23e74cd437ba15ca882d5d47f48a92
+SHA1: f3437ef85707b658a86f1d87cf4f51525b11062a
+SHA256: d6e142a9899959b3cd0fb953aea2d33c729a550897423f4f779008ca1d311285
+Section: Tweaks
+Description: Multiple containers for one application!
+Author: opa334
+Name: Crane Lite
+
+Package: com.p2kdev.safarifasttype
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: P2KDev <p2kdev@gmail.com>
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: ./debs/com.p2kdev.safarifasttype_1.0.2.deb
+Size: 6372
+MD5sum: 6cd1c35942aad2701fa0ff2be199c8e2
+SHA1: 399e6743cc1ce949c7c3fc8ad02457a071b4e5e4
+SHA256: 509d074836bad3da58a6545c1e0f173abb22bd09ebeb078896255e624f44f263
+Section: Tweaks
+Description: Opens the keyboard after you open a new tab in Safari!
+Author: P2KDev <p2kdev@gmail.com>
+Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=com.p2kdev.safarifasttype
+Icon: https://p2kdev.github.io/repo/api/packageinfo/com.p2kdev.safarifasttype/icon.png
+Name: SafariFastType
+Sileodepiction: https://p2kdev.github.io/repo/depictions/native/com.p2kdev.safarifasttype.json
+
+Package: com.ps.amber
+Version: 1.2.1
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 368
+Depends: mobilesubstrate, gsc.camera-flash, firmware (>= 14.0)
+Filename: ./debs/com.ps.amber_1.2.1.deb
+Size: 9646
+MD5sum: 75f7d9204dc9caf1ea4a3e065fc504e5
+SHA1: fa1a9dcb47e867855d26ef664c34b53e1cb26597
+SHA256: e97d00ce9985537d7652df230b36c218cb31a1ae38beaa9ba1de4db9df1c563d
+Section: Tweaks
+Description: Amber-ify your flashlight LEDs.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/amber.html
+Name: Amber
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/amber.json
+
+Package: com.ps.ytabgoodies
+Version: 1.0.5
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 56
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Conflicts: com.ps.youremembercaption, com.ps.ytsystemappearance, com.ps.youarethere
+Filename: ./debs/com.ps.ytabgoodies_1.0.5.deb
+Size: 2692
+MD5sum: 09a8831976333c878e497e6c80674136
+SHA1: 307d89018ff8aeaddc5657d3b19c874f822e2127
+SHA256: d7d90c2c02d965858a8276bc13b36859f75bcc5939159490b806067bdd945350
+Section: Tweaks
+Description: Enforce useful YouTube features that are otherwise 50/50 available to you.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytabgoodies.html
+Name: YTABGoodies
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytabgoodies.json
+
+Package: com.ps.ytx
+Version: 1.7.3
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 56
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytabgoodies
+Filename: ./debs/com.ps.ytx_1.7.3.deb
+Size: 4534
+MD5sum: 6d558646b8863e0345edd2e1e745377a
+SHA1: 8d76415d06a4ef23a9e1e60d930feaea1ee8321a
+SHA256: 15adc2ddf4bae47e93d6ab87ed0fec19509ebba848a88e0b8a98fb83fa389028
+Section: Tweaks
+Description: A lightweight YouTube improvement tweak.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytx.html
+Name: YouTube X
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytx.json
+
+Package: com.ryannair05.cylinder
+Version: 1.1.1
+Architecture: iphoneos-arm64
+Maintainer: Ryan Nair <ryannairtweaks@gmail.com>
+Installed-Size: 1123
+Depends: firmware (>= 15.0), ellekit (>= 0.3), preferenceloader, cy+cpu.arm64e
+Filename: ./debs/com.ryannair05.cylinder_1.1.1.deb
+Size: 237932
+MD5sum: e32bed6085483f48d81607faeef29d11
+SHA1: 0ce6964ccac1d69a2caf5773d47e6f958f667578
+SHA256: 2f63d9cbbf41607b0a01f17ebd924a9f32481cfe733112142cb61951e107ece6
+Section: Tweaks
+Description: Make your icons dance
+Tag: compatible_min::ios11.0
+Author: Ryan Nair <ryannairtweaks@gmail.com>
+Depiction: https://chariz.com/get/cylinder-reborn
+Icon: https://img.chariz.cloud/icon/cylinder-reborn/icon@3x.png
+Name: Cylinder Reborn
+
+Package: com.skypain.ccrespring
+Version: 1.1.0-2
+Architecture: iphoneos-arm64
+Maintainer: Mr.Zhang <mr_zhang_00@163.com>
+Installed-Size: 164
+Depends: com.opa334.ccsupport
+Filename: ./debs/com.skypain.ccrespring_1.1.0-2.deb
+Size: 13224
+MD5sum: 90befd5bb8639a1be437c4fdd9c5a516
+SHA1: 061cbfc8993a796ea4bd83ce5eb411def769d489
+SHA256: 13e31b8db540df08e0ba37a293290f810eace8a746598f0fbad8be48b2452602
+Section: Control Center (Modules)
+Homepage: https://skypain.github.io/repo/
+Description: 控制中心注销模块
+Author: Mr.Zhang <mr_zhang_00@163.com>
+Depiction: https://skypain.github.io/repo/static/view/?p=ccrespring
+Icon: https://skypain.github.io/repo/src/ccrespring/Icon.png
+Name: CCRespring
+Sileodepiction: https://skypain.github.io/repo/src/ccrespring/config/sileo/depiction.json
+
+Package: com.slyfabi.blurryalerts
+Version: 1.2.4
+Architecture: iphoneos-arm64
+Maintainer: SlyFabi
+Installed-Size: 396
+Depends: mobilesubstrate, ws.hbang.alderis
+Filename: ./debs/com.slyfabi.blurryalerts_1.2.4.deb
+Size: 29864
+MD5sum: b76eb21c40f16b5be021e0b360828713
+SHA1: ddf8d5155a0738474ad73ffe0a290d55983f64da
+SHA256: aed1188899b02051fc489d1d471270bdc5ab6c0aeda48e800e1d29eeae7e3fa3
+Section: Tweaks
+Description: tvOS style alerts!
+Author: SlyFabi
+Depiction: https://slyfabi.github.io/depictions/?p=com.slyfabi.blurryalerts
+Icon: file:///var/jb/Library/PreferenceBundles/BlurryAlerts.bundle/icon@3x.png
+Name: BlurryAlerts
+
+Package: com.spark.autounlockx
+Version: 1.1.0-rootless
+Architecture: iphoneos-arm64
+Maintainer: Spark
+Installed-Size: 416
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.spark.autounlockx_1.1.0-rootless.deb
+Size: 63138
+MD5sum: c5f25e3b04928df98b4ff9b7db750fe0
+SHA1: ce1985399cc0436647311d49584aa726ba1ffce2
+SHA256: 9c422475cedc276aa2cc846d3ad40ecde2c71c87f0ad6af30b3bc4f5ec521524
+Section: Tweaks
+Description: Unless there are notifications, the device will automatically unlock when valid Face ID is detected
+Author: Spark
+Name: AutoUnlockX
+
+Package: com.squidforce.disablepastealert16
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: SquidForce
+Installed-Size: 168
+Filename: ./debs/com.squidforce.disablepastealert16_1.0.deb
+Size: 3986
+MD5sum: f34661ec7bc59a70e74297ad7c683a96
+SHA1: 7ba6ddd81114b393b2990f4caeeb82ebf60d77b5
+SHA256: 3d96316b5ed02aedc1c4f9ab0f834dffee364b3b168a8302912a0bac648d885e
+Section: Tweaks
+Description: 1. 禁用iOS16+粘贴警告弹窗，并自动允许
+ 2. 禁用粘贴提醒
+ * 如只需要禁用警告弹窗，可以降级安装版本0.0.1
+Author: SquidForce
+Name: 禁用iOS16+粘贴警告弹窗和粘贴提醒 - DisablePasteAlert16
+
+Package: com.tigisoftware.filza64bit
+Version: 4.0.1-4
+Architecture: iphoneos-arm64
+Maintainer: TIGI Software
+Installed-Size: 23200
+Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
+Filename: ./debs/com.tigisoftware.filza64bit_4.0.1-4.deb
+Size: 8700882
+MD5sum: 3ba64c6c17e4a92c3afc89a95a224532
+SHA1: edaaf4766eeafcbc2186eecdc99a519b8eca2ed5
+SHA256: 5d354834ad5d44fcd2c1e3bdb4d082c25df6f8ba48f837745c2be1aec3f8f981
+Section: Utilities
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 11+. This version only supports 64-bit devices
+Author: TIGI Software
+Name: Filza File Manager 64-bit
+
+Package: com.udevs.debhoarder
+Version: 1.0.4
+Architecture: iphoneos-arm64
+Maintainer: udevs
+Installed-Size: 360
+Depends: mobilesubstrate
+Filename: ./debs/com.udevs.debhoarder_1.0.4.deb
+Size: 37974
+MD5sum: c7aa0dc8e0c278875708f22dec596e10
+SHA1: 3d1df924fd2742373f5a7f111f8d5f64484b51fc
+SHA256: d0bd65924a471da8f2359aecc52256c92aecf00e766902dd9e1100fa11aef8b8
+Section: Tweaks
+Description: Backup deb file for Cydia, Zebra, Installer, and Sileo
+Author: udevs
+Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.debhoarder
+Icon: https://udevsharold.github.io/repo/depictions/com.udevs.debhoarder/icon/icon.png
+Name: DebHoarder
+
+Package: com.wrp1002.cornbar
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: Wes <wes.hamster@gmail.com>
+Installed-Size: 480
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, ws.hbang.alderis (>= 1.2)
+Filename: ./debs/com.wrp1002.cornbar_1.1.0.deb
+Size: 110706
+MD5sum: d0ee7e26740252089e1c4d34b2a80288
+SHA1: 82ec02086d0c4d9c3c73cedc528a2ef1074f1f1a
+SHA256: 7818340e38c932c0b1f40f3ba529569f6f5b61934608b5ffc1acb266d4eec28c
+Section: Tweaks
+Description: Change your HomeBar into corn!
+Author: Wes <wes.hamster@gmail.com>
+Name: CornBar
+
+Package: com.xyaman.tako
+Version: 3.5.2.1
+Architecture: iphoneos-arm64
+Maintainer: b4db1r3
+Installed-Size: 768
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.16),com.mrgcgamer.libgcuniversal
+Filename: ./debs/com.xyaman.tako_3.5.2.1.deb
+Size: 99156
+MD5sum: 1e4b0f39534efd3c98da43b28d246f59
+SHA1: 43d4f7dd476f3080b5b79209b20b8845e8df028b
+SHA256: 1dffd72065e775087265a9bd9c82a8ebc5371f4c9f232cc6e88b890d6bedf31e
+Section: Tweaks
+Description: Notification priority hub tweak.
+Author: Xyaman & b4db1r3
+Icon: https://repo.xyaman.xyz/depictions/tako/assets/icon.png
+Name: Tako ( iOS 15-16 )
+
+Package: com.yourepo.0xkuj.storeswitcher2rootless
+Version: 1.0.4
+Architecture: iphoneos-arm64
+Maintainer: 0xkuj <0xkujz@gmail.com>
+Depends: firmware (>= 11)
+Filename: ./debs/com.yourepo.0xkuj.storeswitcher2rootless_1.0.4.deb
+Size: 14202
+MD5sum: 0519e204e8af2e3a88ec86ec3f1650d3
+SHA1: 4dba6ce0aaa19bd6ea8e3a9759e33a76ab274245
+SHA256: 168a5632e5b12128a23c3a66d18edba887e26b29fed69d0a53d5b47a08cd2367
+Section: Tweaks
+Description: Adds a button to switch account in App Store account page on iOS 11+.
+Author: 0xkuj <0xkujz@gmail.com>
+Name: StoreSwitcher 2 (rootless)
+
+Package: com.yourepo.cydiageek.nodockground
+Version: 1.0.6-1
+Architecture: iphoneos-arm64
+Maintainer: CydiaGeek <lucaluca86@aol.com>
+Depends: mobilesubstrate
+Filename: ./debs/com.yourepo.cydiageek.nodockground_1.0.6-1.deb
+Size: 55278
+MD5sum: 5b084018c44e2fda838e97a838283bd4
+SHA1: b3b28c6679097215a1cc7f7e60579b7b2b2b864c
+SHA256: a66eeb887d525bd0c832fe7c61f8fb6ba0ea10bf2ec27d6b3ecc0fc1ba32963b
+Section: Tweaks
+Description: Make Clear the Background of the Dock!
+Author: CydiaGeek <lucaluca86@aol.com>
+Name: NoDockGround
+
+Package: com.zqbb.limitcharging
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 546
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.zqbb.limitcharging_1.0.deb
+Size: 18486
+MD5sum: 0b8af646d81fcbf8f8e6cb6c027de178
+SHA1: 5c55651337e48ce91301342cb248eb048bbbe900
+SHA256: ae81dc1fa4405e87851bf095f9ecac9dbbd1140129e496c495cd1eec8da2001f
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=limitchargingDp
+Description: Manually set the charging limit more freely to protect battery health.
+ - Wi-Fi Not Disconnected on Lock Screen (Standby consumes 5% more power)
+Author: zqbb <w2599z@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=limitchargingDp
+Dev: zqbb
+Icon: file:///var/jb/Library/PreferenceBundles/LimitCharging.bundle/icon@2x.png
+Name: LimitCharging (限制充电)
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: gawk
+Version: 5.3.0
+Architecture: iphoneos-arm64
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 3888
+Depends: libiosexec1 (>= 1.3.1), libintl8, libreadline8, libmpfr6, libgmp10
+Provides: awk
+Filename: ./debs/gawk_5.3.0.deb
+Size: 707040
+MD5sum: 411d445224e1d72ab21bf9bba4aca1b8
+SHA1: 4f38df52683cada70f6a37f11a0fd1286ef5f8d2
+SHA256: cfebe3c41553e8f8fa955005d89eb2d1a68bc0e70986cec1ef76dab62e31ac25
+Section: Utilities
+Priority: important
+Multi-Arch: foreign
+Homepage: http://www.gnu.org/software/gawk/
+Description: GNU awk, a pattern scanning and processing language
+ `awk', a program that you can use to select particular records in a
+ file and perform operations upon them.
+ .
+ Gawk is the GNU Project's implementation of the AWK programming language.
+ It conforms to the definition of the language in the POSIX 1003.2 Command
+ Language And Utilities Standard. This version in turn is based on the
+ description in The AWK Programming Language, by Aho, Kernighan, and
+ Weinberger, with the additional features defined in the System V Release
+ 4 version of UNIX awk. Gawk also provides more recent Bell Labs awk
+ extensions, and some GNU-specific extensions.
+
+Package: gzip
+Version: 1.13
+Architecture: iphoneos-arm64
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 324
+Depends: libiosexec1 (>= 1.3.1)
+Filename: ./debs/gzip_1.13_iphoneos-arm64.deb
+Size: 115108
+MD5sum: c4791b7860544296c5ebfbe86da4b939
+SHA1: f20cf8b3669e007a4e142a3caa1bfa018a6d8eb2
+SHA256: e9a31cf2e7616e22c5db0cb66a86306c295561c82503bf7474f058971ea0bce2
+Section: Archiving
+Priority: standard
+Multi-Arch: foreign
+Homepage: http://www.gzip.org/
+Description: GNU compression utilities
+ This package provides the standard GNU file compression utilities, which
+ are also the default compression tools for Debian.  They typically operate
+ on files with names ending in '.gz', but can also decompress files ending
+ in '.Z' created with 'compress'.
+
+Package: jp.akusio.backgrounderaction15
+Version: 0.1.0
+Architecture: iphoneos-arm64
+Maintainer: @akusio_RR
+Installed-Size: 340
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/jp.akusio.backgrounderaction15_0.1.0.deb
+Size: 9758
+MD5sum: dc22298382fa90b55cada3c17be1505e
+SHA1: f792ae16efe120e57cb3250cc68f7937013943b7
+SHA256: c497c404ffff941c5fe757f634f5c392f88564e6dcd5fc266a1eeea51b3b948d
+Section: Tweaks
+Description: [iOS15]Add "Toggle Background Mode" action to ControlCenter.
+Author: @akusio_RR
+Depiction: https://akusio.github.io/descriptions/backgrounderaction15/index.html
+Name: BackgrounderAction15 CCSupport
+
+Package: jp.r-plus.menusupport
+Version: 1.3.0
+Architecture: iphoneos-arm64
+Maintainer: r_plus
+Installed-Size: 504
+Depends: mobilesubstrate, firmware (>= 11.0)
+Filename: ./debs/jp.r-plus.menusupport_1.3.0.deb
+Size: 36338
+MD5sum: 7ddaea61f52efe352c4363e0c0ba3ccd
+SHA1: c0a576e193b273ff3cf98c5b8b0d964651d89a01
+SHA256: e1ee47a1d7e93f3bd4dfcab9a0cd46838d01cb755c4620b951271582eed0d7fc
+Section: Tweaks
+Description: Simply plugin loader for iOS system menu.
+Author: r_plus
+Icon: file:///Library/PreferenceBundles/MenuSupportSettings.bundle/MenuSupport@3x.png
+Name: MenuSupport
+
+Package: jp.r-plus.slidecut
+Version: 0.9
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 174
+Depends: mobilesubstrate, firmware (>= 5.0)
+Filename: ./debs/jp.r-plus.slidecut_0.9.deb
+Size: 9472
+MD5sum: f58be6d9df7168d267fb2cb33453b3ca
+SHA1: e97d264af0180a254941a85ac018d1f84fa753aa
+SHA256: 19e0a84ddb68979ebd7ad586647021043d9c8578fa8750bac8c08a38150a81cf
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=slidecutDp
+Description: Slide shortcut via space key.
+Tag: purpose::extension
+Author: r_plus <anasthasia.r+aa@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=slidecutDp
+Dev: rplus
+Name: SlideCut
+
+Package: libmpfr6
+Version: 4.1.0
+Architecture: iphoneos-arm64
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 516
+Depends: libiosexec1 (>= 1.2.2), libgmp10
+Filename: ./debs/libmpfr6_4.1.0.deb
+Size: 208510
+MD5sum: 00d950373b088328fb3930e66ff6aeac
+SHA1: 029c2457e70dace2c21b515c951bcf882f6e3c8e
+SHA256: f1f3207a095591c4b3fda250032bba2bc29f913ade170bc2510658898b986a12
+Section: Libraries
+Priority: optional
+Homepage: https://www.mpfr.org
+Description: multiple precision floating-point computation
+ MPFR provides a library for multiple-precision floating-point computation
+ with correct rounding.  The computation is both efficient and has a
+ well-defined semantics. It copies the good ideas from the
+ ANSI/IEEE-754 standard for double-precision floating-point arithmetic
+ (53-bit mantissa).
+
+Package: lilliana.reverie
+Version: 0.0.3
+Architecture: iphoneos-arm64
+Maintainer: Paisseon
+Installed-Size: 788
+Depends: mobilesubstrate, firmware (>= 13.0), preferenceloader, com.opa334.ccsupport
+Filename: ./debs/lilliana.reverie_0.0.3.deb
+Size: 94754
+MD5sum: 98ec1dc0a72a6efc5c763ffeb3ea0824
+SHA1: 9447b23a68eed5a62487a1cd3d578ddb3af9ffa5
+SHA256: 4719d1228ed47c179b49c2452f0d71840c00dad6ae8865e6d4e25739e8cc5f86
+Section: Tweaks
+Description: Let your iPhone dream
+Author: Paisseon
+Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://paisseon.github.io/depictions/Reverie.json&name=Reverie&dev=Paisseon
+Icon: https://paisseon.github.io/icons/Reverie.png
+Name: Reverie
+Sileodepiction: https://paisseon.github.io/depictions/Reverie.json
+
+Package: me.lau.atria
+Version: 1.4.1
+Architecture: iphoneos-arm64
+Maintainer: ren7995 <lau7995ren@gmail.com>
+Installed-Size: 886
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, ws.hbang.alderis (>= 1.1)
+Conflicts: com.irepo.boxy4, me.kritanta.homepluspro
+Filename: ./debs/me.lau.atria_1.4.1.deb
+Size: 236990
+MD5sum: 0ddd2bd09fe99cdbfbc14ef11c03f463
+SHA1: 6ac4631697e08a7bd4a24475dc80027f5cd5966c
+SHA256: 43b8515cda84b44d6cabea98704c1dda155d38a3235c9048795fb19b5381571f
+Section: Tweaks
+Description: A proper homescreen layout editor for iOS 13-16
+Tag: compatible_min::ios13.0
+Author: ren7995 <lau7995ren@gmail.com>
+Depiction: https://chariz.com/get/atria
+Icon: https://img.chariz.cloud/icon/atria/icon@3x.png
+Name: Atria
+
+Package: me.luki.canna
+Version: 0.9.0
+Architecture: iphoneos-arm64
+Maintainer: Luki
+Installed-Size: 288
+Depends: mobilesubstrate
+Filename: ./debs/me.luki.canna_0.9.0.deb
+Size: 53042
+MD5sum: a7d1199660a90dbb85dbcb6db82f607d
+SHA1: f68df29357e896fab7f467d9464f98ba0879d070
+SHA256: 42c272e0517c88c0ea31f683c3f5414c356d4ea9e5e913be592873d30cd2f0b8
+Section: Tweaks
+Description: iOS 6 (or custom) charging & lock sounds
+Author: Luki
+Depiction: https://luki120.github.io/depictions/web/?p=me.luki.canna
+Name: Canna
+Sileodepiction: https://luki120.github.io/depictions/native/me.luki.canna/depiction.json
+
+Package: mterminal
+Version: 1.6
+Architecture: iphoneos-arm64
+Maintainer: D.F (MTAC) <mtac@mtac.app>
+Installed-Size: 272
+Depends: coreutils, firmware (>= 11.0), gettext-localizations, system-cmds, zsh
+Filename: ./debs/mterminal_1.6.deb
+Size: 86310
+MD5sum: 1673d3203408491ad97a3052e5dcbdca
+SHA1: bb40c2690b3bf6e8bc846f9369f84e2135fe4aa2
+SHA256: 5be580e8cffe4364091e0c56f35b55062a84baae6d2a4b82c556204553443ae8
+Section: Utilities
+Description: A MobileTerminal fork
+Author: lordscotland <admin@officialscheduler.com>
+Icon: https://mtac.app/repo/assets/com.officialscheduler.mterminal/icon-rounded.png
+Name: MTerminal
+Sileodepiction: https://mtac.app/repo/depiction/native/com.officialscheduler.mterminal.json
+
+Package: net.limneos.glow-rootless
+Version: 0.6-12
+Architecture: iphoneos-arm64
+Maintainer: Elias Limneos <limneoselias@gmail.com>
+Installed-Size: 1008
+Depends: mobilesubstrate, preferenceloader, firmware ( >= 12)
+Filename: ./debs/net.limneos.glow-rootless_0.6-12.deb
+Size: 230628
+MD5sum: 77ccc85926f6143e590115b7066e71cd
+SHA1: 30cfe60f19fbd06fc36d74164581b9c54530f39d
+SHA256: 932bf07daaa0871b799b7e1b4829829482b51ce80656d4c367cdbd23950a98c7
+Section: Tweaks
+Description: Let your lockscreen glow!
+Author: Elias Limneos <limneoselias@gmail.com>
+Depiction: http://limneos.net/glow/
+Icon: file:///Library/PreferenceBundles/Glow.bundle/icon.png
+Mainlibmd5: e3ff8fe0c7435fb119f47b6b046a2c96
+Name: Glow (rootless iOS 12-17)
+Sileodepiction: https://limneos.net/cydia/sileo-depiction.php?package=net.limneos.glow
+
+Package: netskao.actionbarreborn
+Version: 1.1-2
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 796
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/netskao.actionbarreborn_1.1-2.deb
+Size: 161476
+MD5sum: 943d9eec9a2c5bd5eec80a6c10ea2bf3
+SHA1: dc0f2c2047b5e0daa2ea884bcbb8c9d59c73d9c9
+SHA256: 99addc3b81f18dd62e9b70297683b22104b9119e3fb4d83a71d1fd2221fca4f3
+Section: Netskao-Tweaks
+Description: Undo, redo, select all, copy, cut and paste actions on bottom of keyboard. ActionBar Free Reborn Edition
+Author: Netskao
+Name: ActionBar Reborn
+
+Package: netskao.filzacrack-rootless
+Version: 1.1-8
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 72
+Depends: firmware (>= 15.0), mobilesubstrate, com.tigisoftware.filza64bit
+Filename: ./debs/netskao.filzacrack-rootless_1.1-8.deb
+Size: 5124
+MD5sum: 229c12f843d8f68e71a2c1459a40e6ff
+SHA1: 839f19211c34754ca88b9a14194cef8a63c4174f
+SHA256: c88951669408509bd2b3d324c72f93baad62229f227c02279c9a85d8621c97a0
+Section: Netskao-Cracks
+Homepage: https://tigisoftware.com/cydia/
+Description: Filza unlock full functionality, the main program please install in the official source
+Author: Netskao
+Name: Filza Crack-Rootless
+
+Package: netskao.limneoscrack-rootless
+Version: 1.1-3
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 152
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: ./debs/netskao.limneoscrack-rootless_1.1-3.deb
+Size: 10428
+MD5sum: 5fc16d68bbea3dafe3322856fea85344
+SHA1: 0327114408bf645a852c3aa77ded2e1a827b0dc6
+SHA256: 074310d74742cc1b3a5df36e1a633a88880e120ecf94e3222272f691a06b19d6
+Section: Netskao-Cracks
+Description: 解锁Limneos所有插件全功能
+Author: Netskao
+Name: Limneos Crack-Rootless
+
+Package: p7zip
+Version: 17.04
+Architecture: iphoneos-arm64
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 9764
+Depends: libiosexec1 (>= 1.2.2)
+Filename: ./debs/p7zip_17.04.deb
+Size: 2487332
+MD5sum: e39ab081aa39f203fca0ffb97f585118
+SHA1: 1a7319f4c58afd8f822233dadde42ce91003c919
+SHA256: ab3c26de7fc990f4df7ae4cb7c0bf7a09d4bfa1547ef20d02e84f8564e731974
+Section: Archiving
+Priority: optional
+Multi-Arch: foreign
+Description: 7z and 7za file archivers with high compression ratio
+ .
+ p7zip is the Unix command-line port of 7-Zip, a file archiver that handles the 7z format which features very high compression ratios.
+ .
+ p7zip provides utilities to pack and unpack 7z archives within a shell or using a GUI (such as Ark, File  Roller or Nautilus).
+ .
+ Installing p7zip-full allows File Roller to use the very efficient 7z compression format for packing and unpacking files and directories. Additionally, it provides the 7z and 7za commands.
+ .
+ List of supported formats:
+ .
+  - Packing / unpacking: 7z, ZIP, GZIP, BZIP2, XZ and TAR
+  - Unpacking only: APM, ARJ, CAB, CHM, CPIO, CramFS, DEB, DMG, FAT,
+    HFS, ISO, LZH, LZMA, LZMA2, MBR, MSI, MSLZ, NSIS, NTFS, RPM, SquashFS, UDF,
+    VHD, WIM, XAR and Z.
+
+Package: plutil
+Version: 0.2.2
+Architecture: iphoneos-arm64
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 124
+Depends: libiosexec1 (>= 1.2.2)
+Conflicts: com.ericasadun.utilities, com.bingner.plutil
+Provides: com.bingner.plutil (=0.2.2)
+Filename: ./debs/plutil_0.2.2.deb
+Size: 24868
+MD5sum: d5148674321476d2a74212bfb044a7b6
+SHA1: 029fadbed20695308e42772cc43aebba0f2b80f2
+SHA256: af73cfd13a9bb7cd85b7acb1f0e05ce38e30ba684006767685a2b01d6fdfa5cb
+Section: System
+Description: Utility for creating and editing Apple property list files.
+Author: Samuel Bingner
+
+Package: sezo.nyx
+Version: 1.3.6
+Architecture: iphoneos-arm64
+Maintainer: Sezo <support@sezo.app>
+Depends: firmware (>=14.0), mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/sezo.nyx_1.3.6_iphoneos-arm64.deb
+Size: 2441800
+MD5sum: 70304dd7e84d133a5881c84986a8d44c
+SHA1: 9d09cc65bcbf486140a7e7f367fcd149e3cbd1ac
+SHA256: 46e248f0588ed17d3cafbc1247c53fbd94c563913a56ce858fc49f1fe5cc8a4b
+Section: Tweaks
+Homepage: https://sezo.app/
+Description: Supercharge your experience on Instagram!
+Author: Sezo <support@sezo.app>
+Depiction: https://sezo.app/depiction/web/sezo.nyx.html
+Icon: https://sezo.app/assets/sezo.nyx/icon.png
+Moderndepiction: https://sezo.app/depiction/native/sezo.nyx.json
+Name: Nyx for Instagram
+Sileodepiction: https://sezo.app/depiction/native/sezo.nyx.json
+Tags: compatible_min::ios14.0, compatible_max::ios
+
+Package: unrar
+Version: 7.0.7
+Architecture: iphoneos-arm64
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 464
+Depends: libiosexec1 (>= 1.3.1)
+Filename: ./debs/unrar_7.0.7_iphoneos-arm64.deb
+Size: 171832
+MD5sum: d1b02350253b7f1d2afb07d59b9512ba
+SHA1: 733d74d9ee28500cea134dc89aecb416147372b9
+SHA256: d1c9ab14c0fe593395d3145fc381bde71a6d56287ddc88d047a820c8ac8271f7
+Section: Archiving
+Priority: optional
+Multi-Arch: foreign
+Homepage: http://www.rarlab.com/rar_add.htm
+Description: Unarchiver for .rar files (non-free version)
+ Unrar can extract files from .rar archives. If you want to create .rar
+ archives, install package rar.
+
+Package: unzip
+Version: 6.0-28
+Architecture: iphoneos-arm64
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 620
+Depends: libiosexec1 (>= 1.3.1)
+Filename: ./debs/unzip_6.0-28.deb
+Size: 148440
+MD5sum: cf6f3b3a9eeca71a1448ed25f5dbb24e
+SHA1: 6462c6096b7b267a16e60fc8b0514d648cf1f556
+SHA256: bb99bb63e5f3a9cac1da17816ed401f3c85c0ad16742943e6f95565a41395da9
+Section: Archiving
+Priority: important
+Description: de-compesses files in zip format
+
+Package: weeb.lillie.youtubedislikesreturn
+Version: 1.12.7
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart and kirb <ytdislikesreturn@gmail.com>
+Installed-Size: 219
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/weeb.lillie.youtubedislikesreturn_1.12.7.deb
+Size: 24768
+MD5sum: 0213fc836bf60d1fbbf112ad5d0fc47e
+SHA1: 79ad1af4d2d0e8cbccdbba4f7bfd97b765cdc160
+SHA256: 12e8580590cdfc247665c3d24074993a87ccc4444d257a8ef41e8bad437eca57
+Section: Tweaks
+Description: Bring Back Dislikes On iOS YouTube
+Tag: compatible_min::ios11.0
+Author: PoomSmart and kirb <ytdislikesreturn@gmail.com>
+Depiction: https://chariz.com/get/return-youtube-dislike
+Icon: https://img.chariz.cloud/icon/return-youtube-dislike/icon@3x.png
+Name: Return YouTube Dislike
+
+Package: xyz.cypwn.afc2d-arm64
+Version: 1.2.0
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: cy+cpu.arm64, mobilesubstrate, firmware (>= 11.0)
+Conflicts: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Replaces: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Provides: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Filename: ./debs/xyz.cypwn.afc2d-arm64_1.2.0.deb
+Size: 17374
+MD5sum: feb8494849032df1beb2117815cb649a
+SHA1: b56faaf7f4377dd8371d921f2142b16f24d1e933
+SHA256: 2b09ab078368a4dfef3a9db73d935f38f8033dfa93fa3ec9e84371a4057321b2
+Section: System
+Description: Allow full file-system access over USB for all arm64 devices, especially useful for those on iOS 11 and above. Please install ldid as it is required for use. (except for the XinaA15 jailbreak)
+Author: saurik, Cannathea
+Depiction: https://repo.cypwn.xyz/depiction/2020
+Name: Apple File Conduit "2" (iOS 11+, arm64)
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2020
+
+Package: xyz.cypwn.autoscroll15
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Depends: mobilesubstrate
+Filename: ./debs/xyz.cypwn.autoscroll15_1.0.0.deb
+Size: 8178
+MD5sum: 8c3b01b6b28a5e085a678774b499ad28
+SHA1: 2015819f31df71e938bf09b0c1a10d503df03dbf
+SHA256: de0b3040784f695513cb7723e342849ef27de5f3993b09096ab4a1126d53b502
+Section: Tweaks
+Description: Prevent finger fatigue. No options to configure.
+Author: pxcex
+Depiction: https://repo.cypwn.xyz/depiction/1278
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/autoscroll.png
+Name: AutoScroll iOS15
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1278
+
+Package: xyz.cypwn.lynxtwo
+Version: 2.5.2
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common
+Filename: ./debs/xyz.cypwn.lynxtwo_2.5.2.deb
+Size: 919296
+MD5sum: d65d4277ead1880b005ae73bf298b516
+SHA1: 7e54359d2a1e032bd08c61fad0feb8e45485095c
+SHA256: 8b9358bc455836b63571be1b9232a022c1c45d7c86ad2b30b5829e1ff0f42b71
+Section: Tweaks
+Description: Ultimate iDevice Customization for iOS 14, 15, 16
+Author: MTAC
+Depiction: https://repo.cypwn.xyz/depiction/2498
+Icon: https://repo.cypwn.xyz/packages/Lynx2-Rootless/icon.png
+Name: Lynx 2
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2498
+
+Package: xyz.skitty.sushi
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: Skitty
+Installed-Size: 704
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: ./debs/xyz.skitty.sushi_1.0.1.deb
+Size: 119406
+MD5sum: c028e8038d8af0abdb9ce2e86a7fcfef
+SHA1: 7f6265b7bb185028d2cb142cdae65017383b7ad7
+SHA256: 9b6b1be3c11ef3083a0350e0ebf180fc92513f85ff3187fbb01f9852bc1bfe14
+Section: Tweaks
+Description: Now playing banner with integrated media controls!
+Author: Skitty
+Depiction: https://skitty.xyz/repo/depictions/xyz.skitty.sushi/
+Icon: https://skitty.xyz/repo/icons/xyz.skitty.sushi.png
+Name: Sushi
+Sileodepiction: https://skitty.xyz/repo/depictions/xyz.skitty.sushi/sileo.json
+
+Package: xz-utils
+Version: 5.4.4
+Architecture: iphoneos-arm64
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 900
+Depends: libiosexec1 (>= 1.3.1), liblzma5 (>= 5.4.4), libintl8
+Conflicts: xz (<<1:0), lzma (<<3:0)
+Replaces: xz, lzma
+Provides: xz (=1:0), lzma (=3:0)
+Filename: ./debs/xz-utils_5.4.4_iphoneos-arm64.deb
+Size: 218368
+MD5sum: 01898f1185dcfdbf53bd12e8ab777b2c
+SHA1: 0ce12c5d274d5ebea8f4825c4195d6f0181fe2fd
+SHA256: 09eca198353c7113619ff2f14f40a5225d87b1bc501500efa80ecc589b55745e
+Section: Archiving
+Priority: standard
+Homepage: https://tukaani.org/xz/
+Description: XZ-format compression utilities
+ XZ is the successor to the Lempel-Ziv/Markov-chain Algorithm
+ compression format, which provides memory-hungry but powerful
+ compression (often better than bzip2) and fast, easy decompression.
+ .
+ This package provides the command line tools for working with XZ
+ compression, including xz, unxz, xzcat, xzgrep, and so on. They can
+ also handle the older LZMA format, and if invoked via appropriate
+ symlinks will emulate the behavior of the commands in the lzma
+ package.
+ .
+ The XZ format is similar to the older LZMA format but includes some
+ improvements for general use:
+ .
+  * 'file' magic for detecting XZ files;
+  * crc64 data integrity check;
+  * limited random-access reading support;
+  * improved support for multithreading (not used in xz-utils);
+  * support for flushing the encoder.
+
+Package: zip
+Version: 3.0-12
+Architecture: iphoneos-arm64
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 592
+Depends: libiosexec1 (>= 1.2.2)
+Filename: ./debs/zip_3.0-12_iphoneos-arm64.deb
+Size: 141098
+MD5sum: 42a7dfd2c3ed98df15e7d3bd45ec236a
+SHA1: 27b32b5fff52df96c58cd64e389e464edd03591d
+SHA256: c0d5973f96b118199055de777e1c4f73d2c9fea66688f3819e68fcd9c5479090
+Section: Archiving
+Priority: important
+Multi-Arch: foreign
+Description: standard Windows compression tool
 
