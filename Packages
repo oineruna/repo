@@ -1300,27 +1300,6 @@ Depiction: https://chariz.com/get/return-youtube-dislike
 Icon: https://img.chariz.cloud/icon/return-youtube-dislike/icon@3x.png
 Name: Return YouTube Dislike
 
-Package: xyz.cypwn.afc2d-arm64
-Version: 1.2.0
-Architecture: iphoneos-arm64
-Maintainer: CyPwn
-Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: cy+cpu.arm64, mobilesubstrate, firmware (>= 11.0)
-Conflicts: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
-Replaces: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
-Provides: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
-Filename: ./debs/xyz.cypwn.afc2d-arm64_1.2.0.deb
-Size: 17374
-MD5sum: feb8494849032df1beb2117815cb649a
-SHA1: b56faaf7f4377dd8371d921f2142b16f24d1e933
-SHA256: 2b09ab078368a4dfef3a9db73d935f38f8033dfa93fa3ec9e84371a4057321b2
-Section: System
-Description: Allow full file-system access over USB for all arm64 devices, especially useful for those on iOS 11 and above. Please install ldid as it is required for use. (except for the XinaA15 jailbreak)
-Author: saurik, Cannathea
-Depiction: https://repo.cypwn.xyz/depiction/2020
-Name: Apple File Conduit "2" (iOS 11+, arm64)
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2020
-
 Package: xyz.cypwn.autoscroll15
 Version: 1.0.0
 Architecture: iphoneos-arm64
