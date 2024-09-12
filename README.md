@@ -1,4 +1,4 @@
-# OineRuna [![Netlify Status](https://api.netlify.com/api/v1/badges/b5012492-5770-4923-8b9d-e1c6cbb26546/deploy-status)](https://app.netlify.com/sites/oineruna/deploys)
+# OineRuna [![Netlify Status](https://api.netlify.com/api/v1/badges/8ef971fd-67b1-4e9e-8915-a5b1a01060a3/deploy-status)](https://app.netlify.com/sites/oineruna/deploys)
 
 A Cydia repository template. This template contains sample on how you can easily make depiction pages without replicating your html pages. The pages are styled using [Bootsrap](http://getbootstrap.com/) which is really easy to use. You can see how it looks like by visiting [this sample repo](https://oineruna.github.io/) on your desktop or mobile phone.
 
